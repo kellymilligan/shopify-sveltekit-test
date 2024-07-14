@@ -1,4 +1,10 @@
-# create-svelte
+# Shopify Storefront API with SvelteKit
+
+Relevant docs:
+https://shopify.dev/docs/api/usage/authentication#getting-started-with-public-access
+https://shopify.dev/docs/api/storefront
+https://shopify.dev/docs/storefronts/headless/building-with-the-storefront-api/products-collections/getting-started
+https://kit.svelte.dev/docs/modules#$env-dynamic-private
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 

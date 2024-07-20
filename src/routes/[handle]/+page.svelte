@@ -4,4 +4,5 @@
 	// console.log(data);
 </script>
 
-<h1>HANDLE: {data.handle}</h1>
+<p>HANDLE: {data.handle}</p>
+<h1>Title: {data.title}</h1>

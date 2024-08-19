@@ -6,3 +6,5 @@
 
 <p>HANDLE: {data.handle}</p>
 <h1>Title: {data.title}</h1>
+<h2>Title: {data.subtitle}</h2>
+<p>Info: {data.info}</p>

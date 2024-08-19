@@ -8,7 +8,7 @@ export async function load({ params }) {
 	// if (metaobjectsRequest.errors) console.log(metaobjectsRequest.errors);
 	// else console.log(metaobjectsRequest.data.metaobjects.edges.map(({ node }) => node));
 
-	const metaobjectRequest = await shopifyClient.request(metaobjectQuery(params.handle));
+	const metaobjectRequest = await shopifyClient.request(metaobjectQuery(`${params.handle}`));
 	if (metaobjectRequest.errors) console.log(metaobjectRequest.errors);
 	else console.log(metaobjectRequest.data.metaobject);
 

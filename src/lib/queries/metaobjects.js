@@ -6,7 +6,7 @@
  */
 export const metaobjectQuery = (handle) => `#graphql
   {
-    metaobject(handle: {type:"page", handle:"${handle}"}) {
+    metaobject(handle: {type:"${handle}_page", handle:"${handle}"}) {
       fields {
         key
         reference
